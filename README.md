@@ -2,7 +2,7 @@
 1. 分层主要是为了让每个目录只处理相应的逻辑
 2. 这里使用`express`的`NodeJS`的一个框架
 3. 文件基本结构： `app.js`是用来开启服务器，`router` 是用来放置所有的路由地址，`controller`是用来处理所有的业务逻辑
-![Image text] (https://img-blog.csdnimg.cn/20200318114123388.png)
+    ![avator] (https://img-blog.csdnimg.cn/20200318114123388.png)
 4. `app.js` `routing(app)`是为了给`router/index.js`文件中传入`app`
 	```js
 	const express = require("express")
